@@ -12,7 +12,13 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\11-IIFE.js"
+            // "program": "${workspaceFolder}\\9-scope-chain.js"
+            // "program": "${workspaceFolder}\\10-function-scope-block-scope.js"
+            // "program": "${workspaceFolder}\\11-IIFE.js"
+            // "program": "${workspaceFolder}\\12-this-keyword.js"
+            // "program": "${workspaceFolder}\\13-call-apply.js"
+            //"program": "${workspaceFolder}\\14-array-isArray.js"
+            "program": "${workspaceFolder}\\15-shadow-clone-deep-clone.js"
         }
     ]
 }
