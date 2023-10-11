@@ -2,4 +2,4 @@
 // the execution -context will be created when we invoke the function
 //the global execution context gives us GlobalObject and this
 
-console.log(this)
+console.log(this);

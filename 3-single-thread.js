@@ -1,4 +1,4 @@
-// JavaScript is a single thread language 
+// JavaScript is a single thread language
 // that means only one statement can be process over the time
 // single thread => it means synchronous => JavaScript is Synchronous and not Asynchronous
 // single thread => it meant it has only one call-stack and one memory-heap
@@ -12,10 +12,12 @@
 // will go to Event Loop (Callback Queue) and when the call-stack was empty the call-back will be added to call-stack
 
 //example
-console.log(1)
-setTimeout(()=>{console.log(2)},0) // this will be removed imaidately from call stack cuz call-stack don't know how to deal with it
-                                   // the runtime will tack care of it and will add the call back to call-stack
-console.log(3)
+console.log(1);
+setTimeout(() => {
+  console.log(2);
+}, 0); // this will be removed imaidately from call stack cuz call-stack don't know how to deal with it
+// the runtime will tack care of it and will add the call back to call-stack
+console.log(3);
 
 // result =>
 // 1
