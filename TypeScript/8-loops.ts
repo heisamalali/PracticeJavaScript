@@ -13,3 +13,7 @@ while (number <= 20) {
   }
   console.log(number++);
 }
+
+do {
+  console.log("do while loop will be executed at least once");
+} while (false);
